@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     // 타이핑 효과를 위한 함수
-    const typeText = (element, text, speed = 30) => {
+    const typeText = (element, text, speed = 70) => {
         element.textContent = "";
         let index = 0;
 
